@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  background: white;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px;
+}
+
+.login img{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 100%;
+}
+
+.login h1{
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Pacifico', cursive;
+}
+
+.inp{
+  height: 50px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  -webkit-box-shadow: -2px -6px 30px -11px rgba(0,0,0,0.75); 
+  box-shadow: -2px -6px 30px -11px rgba(0,0,0,0.75);
+}
+
+.btn1{
+  height: 50px;
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  font-weight: 600;
+  background: skyblue;
+}
+
+.btn1:hover{
+  background: green;
+  transition: 0.5s;
+}
+
+.fa-facebook{
+  font-size: 2.5rem;
+  color: darkblue;
+}
+
+.fa-google-plus{
+  font-size: 2.5rem;
+  color: rgb(156, 14, 45);
+}
+
+.fa-twitter{
+  font-size: 2.5rem;
+  color: darkblue;
+}
+
+.fa-instagram{
+  font-size: 2.5rem;
+  color: rgb(247, 15, 65);
+}
+
+.fa-youtube{
+  font-size: 2.5rem;
+  color: rgb(219, 13, 13);
+}

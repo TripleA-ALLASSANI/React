@@ -1,6 +1,7 @@
 import imageinsrc from "./imageInSrc.jpg";
+// import myvideo from "./videos/myvideo.mp4"
 import "./App.css";
-import "./styles/styles.css"
+import "./styles/styles.css";
 
 function App() {
   return (
@@ -10,28 +11,33 @@ function App() {
           <div className="container">
             <div className="row g-0">
               <div style={{ border: "solid 1px black", maxWidth: "100vw" }}>
-                <h1 className="title red animate__animated animate__heartBeat animate__infinite">Your name here</h1>
+                <h1 className="title red animate__animated animate__heartBeat animate__infinite">
+                  Your name here
+                </h1>
                 <br />
                 <div className={"col-lg"}>
-                <img
-                  width={"100%"}
-                  height={"10px"}
-                  src={imageinsrc}
-                  alt="scrimage"
-                />
+                  <img
+                    width={"100%"}
+                    height={"10px"}
+                    src={imageinsrc}
+                    alt="scrimage"
+                  />
                 </div>
                 <br />
                 <div className={"col-lg"}>
-                <img
-                  width={"100%"}
-                  height={"10px"}
-                  src="/imageInPublic.jpg"
-                  alt="publicimage"
-                />
+                  <img
+                    width={"100%"}
+                    height={"10px"}
+                    src="/imageInPublic.jpg"
+                    alt="publicimage"
+                  />
                 </div>
               </div>
               <vidéo width={320} height={240} contrôles>
-                <source src="myVideo.mp4" type="video/mp4" />
+                <source
+                  src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
+                  type="video/mp4"
+                />
               </vidéo>
             </div>
           </div>

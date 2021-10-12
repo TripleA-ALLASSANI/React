@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.row{
+  background: white;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px;
+}
+
+
+
+.imgoupe img {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 100%;
+}
+
+.title,
+.red {
+  color: #282c34;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+}

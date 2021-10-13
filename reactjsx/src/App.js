@@ -1,4 +1,5 @@
 import imageinsrc from "./imageInSrc.jpg";
+import video from "./videos/myvideo.mp4"
 import "./App.css";
 import "./styles/styles.css";
 
@@ -34,7 +35,7 @@ function App() {
               </div>
               <video width={320} height={240} contrôles>
                 <source
-                  src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
+                  src={video}
                   type="video/mp4"
                 />
               </video>
